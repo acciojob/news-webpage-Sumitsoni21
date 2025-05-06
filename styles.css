@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#f5f5f5;
+}
+
+
+
+.header{
+	background-color:#011e29;
+	color:white;
+	text-align:center;
+	padding:10px;
+}
+
+
+.main{
+	display:flex;
+	justify-content:space-around;
+	padding:20px;
+	flex-wrap:wrap;
+}
+
+.latest-news-section{
+	background-color:white;
+	padding:10px;
+	border-radius:10px;
+	width:20%;
+}
+
+.main-article{
+	background-color:white;
+	padding:20px;
+	text-align:center;
+	width:40%;
+	border-radius:10px;
+}
+
+
+.pictorial-news-section{
+	background-color:white;
+	width:25%:
+	padding:20px;
+	text-align:center;
+	border-radius:10px;
+}
+
+
+.pictorial-news-section img {
+  width: 100px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display:block;
+	padding:10px
+}
